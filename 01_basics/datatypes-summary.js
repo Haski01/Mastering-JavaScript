@@ -59,3 +59,37 @@ const myFunction = function(){
 
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// ************************************************************
+//  [!Memory management in javaScrpt]
+
+// 1. Stack (Primitive) => return copy 
+// 2. Heap (Non-Primitive) => return refrence
+
+
+// 1. Stack memory management
+let name = "asad"
+let anotherName = name
+anotherName = "Mohammad Asad"
+
+// console.log(name); // asad
+// console.log(anotherName); // Mohammad Asad
+
+
+// 2. Heap memory management
+let userOne = {
+    name: "asad",
+    age: 18
+}
+
+let userTwo = userOne;
+userTwo.name = "arshad"
+
+// console.log(userOne.name); // arshad
+// console.log(userTwo.name); // arshad
+
+
+
+
+
