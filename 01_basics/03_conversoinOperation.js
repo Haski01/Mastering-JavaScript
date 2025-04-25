@@ -68,11 +68,17 @@ num1 = num2 = num3 = 2 + 2
 // console.log(num1,num2,num3); // output => 4 4 4
 
 
-let gameCounter = 100
-gameCounter++;
-// console.log(gameCounter); // output => 100
-++gameCounter;
-// console.log(gameCounter); // output => 102
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
 
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
