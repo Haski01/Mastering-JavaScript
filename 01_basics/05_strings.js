@@ -11,7 +11,6 @@ const repoCount = 70
 
 
 const gameName = new String('asad-ad-com')
-
 // console.log(gameName);
 
 // console.log(gameName[0]); // output => a
