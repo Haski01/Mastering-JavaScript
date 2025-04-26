@@ -23,17 +23,21 @@ const myArr2 = new Array(1, 2, 3, 4)
 // // => Adds all the elements of an array into a string, separated by the specified separator string.
 // console.log( newArr);
 
+// console.log(typeof newArr); // string
+
 
 
 // ***************[slice, splice]***************
 
-console.log("Original Array A: ", myArr); // original array
+// console.log("Original Array A: ", myArr); // original array
 
-const myn1 = myArr.slice(1, 3) // Return a copy of a section of an array.
-console.log("applying slice method  ",myn1);
-console.log("original array B: ", myArr); // nothing change in original array
+// const myn1 = myArr.slice(1, 3) // Return a copy of a section of an array.
+// console.log("applying slice method  ",myn1);
+// console.log("original array B: ", myArr); // nothing change in original array
 
 
-const myn2 = myArr.splice(1, 3) // point out original array
-console.log("apply splice method ",myn2); // Removes elements from an array also change in original array
-console.log("original array C: ", myArr);
+// const myn2 = myArr.splice(1, 3) // point out original array
+// console.log("apply splice method ",myn2); // Removes elements from an array also change in original array
+// console.log("original array C: ", myArr);
+
+ 
