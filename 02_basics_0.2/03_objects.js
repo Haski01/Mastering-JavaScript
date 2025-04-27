@@ -2,6 +2,9 @@
 // > when we create object using "literals" then "singleton never create"
 // > or when we create object using "Constructor" then "singleton create"
 
+// const myObj = new Object() // singleton object (create using Constructor)
+// const myObj = {} // non-singleton object (create using literal)
+
 // singleton/ constructor
 // Object.create => contructor method
 
