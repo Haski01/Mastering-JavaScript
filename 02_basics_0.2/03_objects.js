@@ -35,7 +35,7 @@ JsUser.greeting = function () {
   console.log("Hello JS user");
 };
 JsUser.greetingTwo = function () {
-  console.log(`Hello JS user, ${this.name}`);
+  console.log(`Hello JS user, ${this.name}`); // "this" use to refrence same object
 };
 
 JsUser.greeting();
