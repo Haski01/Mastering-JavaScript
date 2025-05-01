@@ -1,3 +1,5 @@
+// scope in browser or scope in code environment both scopes act differently means both scooes are different 
+
 // global scope
 let a = 300;
 let b = 900;
