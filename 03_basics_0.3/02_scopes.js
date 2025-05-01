@@ -59,6 +59,8 @@ function addone(num) {
 }
 
 // addTwo(5);
-const addTwo = function (num) {
+
+ // this type of functions declaration called "expression"
+const addTwo = function (num) { 
   return num + 2;
 };
