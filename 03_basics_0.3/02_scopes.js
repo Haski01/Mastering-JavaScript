@@ -50,7 +50,7 @@ if (true) {
 
 // console.log(username);
 
-// ++++++++++++++++++ interesting ++++++++++++++++++
+// ++++++++++++++++++ interesting (hoisting concept)++++++++++++++++++
 
 // console.log(addone(5));
 
