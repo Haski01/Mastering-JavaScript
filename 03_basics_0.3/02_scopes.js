@@ -1,3 +1,5 @@
+// scope in browser or scope in code environment both scopes act differently means both scooes are different 
+
 // global scope
 let a = 300;
 let b = 900;
@@ -48,7 +50,7 @@ if (true) {
 
 // console.log(username);
 
-// ++++++++++++++++++ interesting ++++++++++++++++++
+// ++++++++++++++++++ interesting (hoisting concept)++++++++++++++++++
 
 // console.log(addone(5));
 
@@ -57,6 +59,8 @@ function addone(num) {
 }
 
 // addTwo(5);
-const addTwo = function (num) {
+
+ // this type of functions declaration called "expression"
+const addTwo = function (num) { 
   return num + 2;
 };
