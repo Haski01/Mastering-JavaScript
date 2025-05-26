@@ -48,12 +48,12 @@ const debitCard = true;
 const loggedInFromGoogle = false;
 const loggedInFromEmail = true;
 
-if (userLoggedIn && debitCard && 2 === "2") {
-  // both statement must be true
-  console.log("Allow to buy course");
-}
+// if (userLoggedIn && debitCard && 2 === "2") {
+//   // both statement must be true
+//   console.log("Allow to buy course");
+// }
 
-if (loggedInFromGoogle || loggedInFromEmail) {
-  // anyone statement should be true
-  console.log("User logged in");
-}
+// if (loggedInFromGoogle || loggedInFromEmail) {
+//   // anyone statement should be true
+//   console.log("User logged in");
+// }
