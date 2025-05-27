@@ -22,7 +22,7 @@ for (let i = 1; i <= 10; i++) {
 // ---------------------------- [for loop with array]
 
 let myArray = ["flash", "batman", "superman"];
-// console.log(myArray.length);
+// console.log(myArray.length) ;
 for (let index = 0; index < myArray.length; index++) {
   //   console.log(myArray[index]);
 }
