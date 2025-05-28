@@ -36,28 +36,28 @@ for (const greet of greetings) {
 
 const map = new Map(); // Creating a Map
 
-// Adding values to a Map
+// [Adding values to a Map]
 map.set("IN", "India");
 map.set("USA", "United States of America");
 map.set("Fr", "France");
 map.set("IN", "India"); // this can'nt print bcz of map has property of uniqueness
 
-//  Accessing values
+//  [Accessing values]
 
 // console.log(map.get("USA")); // United States of America
 // console.log(map.get("age")); //  'undefined' bcz age key not occure
 
-// Checking if a key exists
+// [Checking if a key exists]
 // console.log(map.has("IN")); // true
 // console.log(map.has("age")); // false
 
-// Removing a key
+// [Removing a key]
 // map.delete("IN");
 
-// Getting the size
+// [Getting the size]
 // console.log(map.size);  // 2 (if IN item was deleted)
 
-// Looping through a Map
+// [Looping through a Map]
 for (const [key, value] of map) {
   // console.log(key, ":-", value);
 }
@@ -69,7 +69,7 @@ const myObject = {
   game2: "Spiderman",
 };
 
-// looping through a object
+// [looping through a object]
 // for (const obj of myObject) {
 //   console.log(key, ":-", value);
 // }

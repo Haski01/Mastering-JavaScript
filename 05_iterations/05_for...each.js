@@ -1,4 +1,4 @@
-// ----------------------------- [forEach] -------------------------
+// ----------------------- [forEach or called high order array loop] -------------------------
 
 // -> The forEach() method is used to loop through elements of an array and execute a function once for each item.
 
